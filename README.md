@@ -1,1 +1,1 @@
-# ICTQuiz
+# TriviaApp
