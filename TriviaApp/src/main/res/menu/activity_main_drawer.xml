@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Music Trivia">
+        <menu>
+            <item
+                android:id="@+id/nav_quizone"
+                android:icon="@drawable/ic_library_music_black_24dp"
+                android:title="Quiz 1" />
+            <item
+                android:id="@+id/nav_quiztwo"
+                android:icon="@drawable/ic_library_music_black_24dp"
+                android:title="Quiz 2" />
+        </menu>
+    </item>
+    <item android:title="Game Trivia">
+        <menu>
+            <item
+                android:id="@+id/nav_quizthree"
+                android:icon="@drawable/ic_games_black_24dp"
+                android:title="Quiz 3" />
+            <item
+                android:id="@+id/nav_quizfour"
+                android:icon="@drawable/ic_games_black_24dp"
+                android:title="Quiz 4" />
+        </menu>
+    </item>
+    <item android:title="World Trivia">
+        <menu>
+            <item
+                android:id="@+id/nav_quizfive"
+                android:icon="@drawable/ic_public_black_24dp"
+                android:title="Quiz 5" />
+            <item
+                android:id="@+id/nav_quizsix"
+                android:icon="@drawable/ic_public_black_24dp"
+                android:title="Quiz 6" />
+        </menu>
+    </item>
+
+</menu>
